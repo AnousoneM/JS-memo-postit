@@ -14,15 +14,47 @@
 <body>
 
     <h1 class="text-center mt-4">MéMO</h1>
+
+    <!-- row contenant l'interface d'enregistrement -->
     <div class="row justify-content-center">
         <div class="top-box col-lg-3 col-11 pt-3 text-center border border-dark shadow bg-danger">
             <p class="fw-bold m-2 text-white">SUJET + TEXTE</p>
-            <input name="subject" id="subject" class="subject border border-secondary shadow-sm" type="text" placeholder="Sujet">
-            <textarea name="memoText" id="memoText" class="mt-1 border border-secondary shadow-sm" placeholder="Ecrire ici"></textarea>
-                <button class="d-block mx-auto btn btn-light mt-3 mb-2 fw-bold px-5">envoyer</button>
-                <button class="erase-button d-block mx-auto btn btn-dark mb-3">effacer</button>
+            <input name="subject" id="subject" class="subject border border-secondary shadow-sm" type="text"
+                placeholder="Sujet">
+            <textarea name="memoText" id="memoText" class="mt-1 border border-secondary shadow-sm"
+                placeholder="Ecrire ici"></textarea>
+            <button class="d-block mx-auto btn btn-light mt-3 mb-2 fw-bold px-5">envoyer</button>
+            <button class="erase-button d-block mx-auto btn btn-dark mb-3">effacer</button>
         </div>
     </div>
+
+    <!-- row contenant les memos -->
+    <div class="row justify-content-center mt-3">
+        <div class="col-lg-6 row g-3 p-0 justify-content-evenly">
+            <div class="note shadow py-2 px-4">
+                <h2 class="fs-4">Achat</h2>
+                <p>Du pain</p>
+            </div>
+            <div class="note shadow py-2 px-4">
+                <h2 class="fs-4">MSI 2022</h2>
+                <p>Let's go G2</p>
+            </div>
+            <div class="note shadow py-2 px-4">
+                <h2 class="fs-4">Anniversaire</h2>
+                <p>23 Mai</p>
+            </div>
+            <div class="note shadow py-2 px-4">
+                <h2 class="fs-4">Achat</h2>
+                <p>Du pain</p>
+            </div>
+            <div class="note shadow py-2 px-4">
+                <h2 class="fs-4">Achat</h2>
+                <p>Du pain</p>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>

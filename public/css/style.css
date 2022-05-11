@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+body {
+    background-color: #6868AC;
+}
+
+
 textarea {
     width: 70%;
     font-size: 0.8rem;
     text-align: center;
 }
 
-.subject {
+.object {
     width: 70%;
     text-align: center;
 }
@@ -21,9 +28,14 @@ textarea {
 .note {
     width: 30%;
     height: 7rem;
-    border: 1px solid rgb(183, 183, 183);
-    background: linear-gradient(135deg, white 0 85%, rgb(206, 206, 206));
+    border: 1px solid rgb(123, 123, 123);
+    background: linear-gradient(135deg, white 0 85%, rgb(164, 164, 164));
     font-size: 0.8rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.note .close {
+    text-align: end;
 }
 
 @media only screen and (max-width: 600px) {
